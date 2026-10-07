@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Snake 3D – Garden Edition</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="meadow">
+<header>
+  <h1>Snake<span>3D</span></h1>
+  <div id="hud">
+    <div>Score<b id="sc">0</b></div>
+    <div>Level<b id="lv">1</b></div>
+    <div>Best<b id="hi">0</b></div>
+  </div>
+</header>
+<main>
+  <div id="stage">
+    <div id="board"><canvas id="c"></canvas></div>
+    <div id="ov"></div>
+  </div>
+</main>
+<footer>
+  <span><b>←↑↓→</b> / <b>WASD</b> steer</span>
+  <span><b>Space</b> pause</span>
+  <span><b>V</b> camera</span>
+  <span><b>T</b> theme</span>
+  <span><b>B</b> walls / wrap</span>
+  <span><b>M</b> sound</span>
+</footer>
+<script src="game.js"></script>
+</body>
+</html>
